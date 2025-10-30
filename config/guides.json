@@ -1,0 +1,65 @@
+{
+    "PT": {
+        "name": "Pete",
+        "phone": "+31 6 38 68 38 39",
+        "plate": "ZV-653-G",
+        "car": "Black Mercedes van",
+        "lang": "EN"
+    },
+    "RE": {
+        "name": "Reinier",
+        "phone": "+31 6 18 01 07 47",
+        "plate": "G-746-NF",
+        "car": "Black Mercedes van",
+        "lang": "EN"
+    },
+    "LZ": {
+        "name": "Leidse",
+        "phone": "+31 6 41 32 32 64",
+        "plate": "NK-125-S",
+        "car": "Black Mercedes van",
+        "lang": "EN"
+    },
+    "KA": {
+        "name": "Kai",
+        "phone": "+31 6 29 17 27 81",
+        "plate": "R-278-JT",
+        "car": "Black Mercedes van",
+        "lang": "EN"
+    },
+    "LY": {
+        "name": "Eric",
+        "phone": "+31 6 38 37 65 77",
+        "plate": "X-010-ZF",
+        "car": "Black Mercedes van",
+        "lang": "EN"
+    },
+    "SM": {
+        "name": "Simon",
+        "phone": "+31 6 47 05 07 46",
+        "plate": "T-278-JF",
+        "car": "Brown Mercedes van",
+        "lang": "EN"
+    },
+    "SR": {
+        "name": "苏瑞 苏导",
+        "phone": "+31 6 51 22 21 38",
+        "plate": "G-746-NF",
+        "car": "黑色奔驰商务车",
+        "lang": "CN"
+    },
+    "KD": {
+        "name": "Kendall 邓导",
+        "phone": "+31 6 86 05 77 66",
+        "plate": "KB-585-F",
+        "car": "银色奔驰商务车",
+        "lang": "CN"
+    },
+    "Unknown": {
+        "name": "Unknown",
+        "phone": "N/A",
+        "plate": "N/A",
+        "car": "Mercedes van",
+        "lang": "EN"
+    }
+}

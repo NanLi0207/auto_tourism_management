@@ -1,0 +1,19 @@
+a251031 CN 2 Qiao Chen GZ CN CT Notes: Phone: +8613953505638 Hotel: Tribe Amsterdam City, Termini 9, 1022 LB Amsterdam Boat: Yes
+a251031 HK 2 Chu Yan Kei Sandy GZ CT Notes: Phone: +85255325757 Hotel: Unknown Boat: Yes
+a251031 HK 2 Wong Peggy GZZ CN KLK Notes: Phone: +85294251463 Hotel: CS Boat: Yes
+a251031 HK 4 Wong Francis GAZ KLK Notes: Phone: +85293603866 Hotel: Eric Vökel Amsterdam Suites, De Ruijterkade 127, 1011 AA Amsterdam Boat: Yes
+a251031 IN 2 Ajay Sarath Rajeswara Palanichamy RDD-D KLK Notes: Phone: +918220061024 Hotel: XO HOTELS Blue Tower - Amsterdam Boat: No
+a251031 US 1 Barbara Richardson GAZ V2 Notes: Phone: +16035451434 Hotel: Park Centraal Amsterdam, part of Sircle Collection, Stadhouderskade 25, 1071 ZD Amsterdam Boat: Yes
+a251031 AU 1 Lena Parker RDD-M V2 Notes: Phone: +61427847267 Hotel: Unknown Boat: No
+a251031 US 2 Richard Gescheidt RDD-M V2 Notes: Phone: +15613956700 Hotel: Intercontinental Amstel Amsterdam By Ihg, Professor Tulpplein 1, 1018 GX Amsterdam Boat: No
+a251031 US 2 Jean Becker RDD-D V2 Notes: Phone: +13038599385 Hotel: Eden Hotel Amsterdam, Amstel 144, 1017 AE Amsterdam Boat: No
+a251031 US 1 Irene Wu-Walker GAZ V1 Notes: Phone: +16269225032 Hotel: Kimpton De Witt By IHG, Nieuwezijds Voorburgwal 5, 1012 RC Amsterdam Boat: Yes
+a251031 US 2 Jonathan Gelfand GZZ V1 Notes: Phone: +13109850200 Hotel: The Hoxton, Amsterdam, Herengracht 255, 1016 BJ Amsterdam Boat: Yes
+a251031 US 2 Ami Carson GAZ V1 Notes: Phone: +12702933610 Hotel: Park Centraal Amsterdam, part of Sircle Collection, Stadhouderskade 25, 1071 ZD Amsterdam Boat: Yes
+a251031 US 2 Candace Mannarino GAZ V1 Notes: Phone: +19146496748 Hotel: Kimpton De Witt By IHG, Nieuwezijds Voorburgwal 5, 1012 RC Amsterdam Boat: Yes
+a251031 US 2 Alva Yasso GAZ V1 Notes: Phone: +18083574980 Hotel: Hilton Amsterdam, Apollolaan 138, 1077 BG Amsterdam Boat: Yes
+a251031 US 2 Kristie Nakamura GAZ V1 Notes: Phone: +18082811579 Hotel: Hilton Amsterdam, Apollolaan 138, 1077 BG Amsterdam Boat: Yes
+a251031 US 2 Carolyn Oliver RDD-D V1 Notes: Phone: +12395606304 Hotel: Tivoli Doelen Amsterdam, Nieuwe Doelenstraat 24, 1012 CP Amsterdam Boat: No
+a251031 XX 4 TIMOTHY DANAO GZ V1 Notes: Phone: Unknown Hotel: Renaissance Amsterdam Hotel, Kattengat 1, Amsterdam, 1012 SZ Boat: Yes
+a251031 US 2 Heather Stoddard GAZ V1 Notes: Phone: +18017125720 Hotel: Unknown Boat: Yes
+a251031 US 2 Alexandra Howard GAZ V1 Notes: Phone: +19043866326 Hotel: Pillows Grand Boutique Hotel Maurits At The Park, Mauritskade 61, 1092 AD Amsterdam Boat: Yes

@@ -1,0 +1,231 @@
+﻿1 统计客户信息，导入通讯录：
+当前Version_1.0
+Last Name: a日期 国家缩写 人数 姓名 团名 （中文团） 平台名
+           a201007 DE 2 ZHANG SAN GZZ (CN) GYG
+           ---------安排路线，分配导游--------
+           a日期 国家缩写 人数 姓名 团名 （中文团） 平台名 导游
+           a201007 DE 2 ZHANG SAN GZZ (CN) GYG DU
+TEL: +491789367961
+NOTE:  ABC Hotel, Street 123, 4567XY, Amsterdam
+       （不）包船
+
+       （接送地点，如有）
+       其他信息
+       时间
+       其他信息
+
+改进Version_1.1
+Last Name: a日期 国家缩写 人数 姓名 团名 语言 平台名
+           a201007 DE 2 ZHANG SAN GZZ EN GYG
+           ---------安排路线，分配导游--------
+           a日期 国家缩写 人数 姓名 团名 语言 平台名 导游
+           a201007 DE 2 ZHANG SAN GZZ EN GYG DU
+TEL: +491789367961
+NOTE:  HT: ABC Hotel, Street 123, 4567XY, Amsterdam
+       BT: Y/N
+
+       PP: edC Hotel, Street 160, 4567XY, Amsterdam
+       PT: 8:05/8:10
+       DT: 3-4min walk/walking street
+       OT: private tour/any other information need to add manually
+
+说明：
+    Last Name中将语言作为常驻信息
+    Note中将每条信息做相应的标记：HT(hotel): 客人填写的初始地点，酒店/车站
+                                BT(boat): 是否包船
+                                PP(pickup point): 接送地点，即使相同，也复制一遍，或者写same
+                                PT(pickup time): 接送时间，1-2个时间
+                                DT(distance): 如果接送地点和初始地点不同，需要发给客人的额外信息
+                                OT(others): 任何其他需要注意的信息，自定义，可能需要手动操作
+    规则：如果初始地点是中央车站，需要将(CS)信息发给导游
+         如果PT中有两个时间，那么将前时间发给游客，后时间发给导游
+         如果接送地点和初始地点不同，要将DT信息同时发给游客，要将(HT)附在PP地址后同时发给导游，只发送地名不发送地址，即HT当中第一个","前的内容
+         每个条目，内容在同一行，禁止换行
+         中文内容尽量改写为英文
+         根据实际情况，如果需要添加其他条目，及时沟通
+
+
+
+
+2 安排路线，分配导游
+略
+
+
+3 发接送信息给客人
+模板：
+Good morning Nickol，
+
+You booked a tour with us tomorrow to Zaanse Schans, Afsluitdijk and Giethoorn.
+
+First welcome to the Netherlands, and thank you for booking with us. 
+
+Tomorrow your driver and tour guide is: Pete, mobile number: +31 6 38 68 38 39. Car license plate number: ZV-653-G. Black Mercedes van. 
+
+Could you please confirm your hotel name and address?
+
+Eden Hotel Amsterdam
+Amstel 144, 
+1017 AE Amsterdam
+
+Tomorrow our tour guide will pick you up from your hotel around 8:00.
+
+Thanks!!! Could you reply to confirm?
+
+Regards,
+Judy
+
+或者
+
+Good afternoon Galina,
+
+You booked a tour with us tomorrow to Zaanse Schans, Afsluitdijk and Giethoorn.
+
+First welcome to the Netherlands, and thank you for booking with us. 
+
+Tomorrow your driver and tour guide is: Pete, mobile number: +31 6 38 68 38 39. Car license plate number: ZV-653-G. Black Mercedes van
+
+Could you please confirm your hotel name and address?
+
+Hotel Cafe Corner House, 
+Nieuwezijds Voorburgwal 119-121, 
+1012 RH Amsterdam
+
+I see there is no parking spot in front of your hotel. Tomorrow could you please meet us at following meeting point near your hotel? 
+
+Meeting point:
+Hotel Die Port van Cleve
+Nieuwezijds Voorburgwal 176-180
+1012 SJ Amsterdam
+
+It is 1-2 minutes walk from your hotel.  Just across the street. 
+
+Tomorrow our tour guide will pick you up there around 8:00.
+
+Thanks!!! Could you reply to confirm?
+
+Regards,
+Dan
+
+模板包含：
+A 基于时间的问候语+客人first Name
+B You booked a tour with us tomorrow to 目的地
+C First welcome to the Netherlands, and thank you for booking with us. 
+D Tomorrow your driver and tour guide is: 导游姓名，手机号，车牌号，车型
+E Could you please confirm your hotel name and address?
+    酒店名，
+    街道 门牌，
+    邮编 城市
+F Tomorrow our tour guide will pick you up from your hotel around 接送时间.
+G Thanks!!! Could you reply to confirm?
+
+  Regards,
+  Dan
+
+或者
+
+A 基于时间的问候语+客人first Name
+B You booked a tour with us tomorrow to 目的地
+C First welcome to the Netherlands, and thank you for booking with us. 
+D Tomorrow your driver and tour guide is: 导游姓名，手机号，车牌号，车型
+E Tomorrow could you please meet us at the following meeting point near Amsterdam central station?
+F Meeting point:
+    接送地点
+    街道门牌
+    邮编城市
+G This meeting point is about 步行时间 from central station.  
+
+Tomorrow tour guide will pick you up there around 接送时间. 
+
+Thanks!!! Could you reply to confirm?
+
+Regards,
+Kun
+
+或者
+
+A 基于时间的问候语+客人first Name
+B You booked a tour with us tomorrow to 目的地
+C First welcome to the Netherlands, and thank you for booking with us. 
+D Tomorrow your driver and tour guide is: 导游姓名，手机号，车牌号，车型
+E Could you please confirm your hotel name and address?
+    酒店名，
+    街道 门牌，
+    邮编 城市
+F 根据酒店和接送地址，描述改变接送地点的原因(N). Tomorrow could you please meet us at following meeting point near your hotel? 
+    Meeting point:
+    地名，
+    街道 门牌，
+    邮编 城市
+
+G It is about 步行时间 walk from your hotel. 详细信息. 
+H Tomorrow our tour guide will pick you up there around 接送时间.
+
+I Thanks!!! Could you reply to confirm?
+
+  Regards,
+  Dan
+
+4 确认收到客人确认信息
+Thank you for confirming. Enjoy your tour tomorrow.☺️
+
+
+5 发行程信息给导游
+模板：
+导游：PT
+哈喽 明天
+行程: 风车村+拦海大坝+羊角村
+8人
+
+08:00 Die Port Van Cleve, Nieuwezijds Voorburgwal 176-180, 1012 SJ Amsterdam (XYZ Hotel)
+2人，Stacey Bird，USA, Imessage
+2人，Mango Li，Japan，WhatsApp
+包船
+
+08:00 Die Port van Cleve, Nieuwezijds Voorburgwal 176-180, 1012 SJ Amsterdam (ABC Hotel)
+2人，Galina Nikiforova，USA, WhatsApp
+不包船
+
+08:05 The Hoxton, Amsterdam, Herengracht 255, Amsterdam (CS)
+2人，Joy Roberts，Australia, Wechat
+包船
+
+模板包括：
+导游：导游姓名缩写
+哈喽 明天
+行程: 中文目的地
+总人数
+
+A时间 接送地点（初始地点，如不一致）
+人数，姓名，国家，联系平台
+人数，姓名，国家，联系平台
+是否包船
+
+B时间 接送地点
+人数，姓名，国家，联系平台
+是否包船
+
+C时间 接送地点（CS）
+人数，姓名，国家，联系平台
+是否包船
+
+
+6
+必须建立的数据库：
+    初始地点库（酒店库）：根据历史订单，总结游客的初始地点（酒店），包含关键词、全称、详细地址、酒店特征（步行街，无停车位等）、经纬度等
+    接送地点库：根据历史订单，总结各个酒店对应的接送地点，可能的映射关系是本身、一个、或多个接送地点，可以与酒店库建立对应关系，包含关键词、全称、详细地址、地点特征/与酒店关系（在街角，在马路对面等）、经纬度等
+    司机库：包含缩写、名字、手机号、车牌号、车型/颜色等
+    目的地库/团库：包含缩写、中英文关键词、中英文全称等
+
+可能建立的数据库：
+    接送路线库：根据客人提供的初始地点及接送地点，推理合理的接送路线
+    话术库：根据客人提问的关键词，自动回复
+    等等
+
+可分析的数据：
+    客人信息：分析游客的国家、消费水平、联系平台，用于定向广告推广、完善联系机制
+    目的地信息：分析旅游目的地的热门程度和淡季旺季，用于合理高效的资源分配与资金投入
+    游客评价：分析游客消费后的评价，包括平台评价和口头问询，用于导游和客服的服务水平
+    等等
+
+发展方向：
+自动化、数字化、标准化、流程化、规模化、定制化

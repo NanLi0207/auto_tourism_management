@@ -1,0 +1,10 @@
+a251101 HK 1 Shum Ho Lun GZ CN CT Notes: Phone: +85298664279 Hotel: Loevestein 139 Amsterdam, Noord-Holland 1082 XE Boat: Yes
+a251101 SG 1 Ceci Tan RDD-D GYG Notes: Phone: +6598365512 Hotel: The Hoxton Amsterdam, Herengracht, Amsterdam, Netherlands Boat: No
+a251101 HK 1 Tsang Ching GZZ CN KLK Notes: Phone: +85260186928 Hotel: NH Museum Quarter Boat: Yes
+a251101 TW 1 Yang Chialin GZZ KLK Notes: Phone: +8860975538915 Hotel: NH Museum Quarter Boat: Yes
+a251101 HK 2 LEUNG GARRICK GZ CN KLK Notes: Phone: +85262290713 Hotel: Anantara Grand Hotel Krasnapolsky Amsterdam Boat: Yes
+a251101 IN 1 PATEL PRATHAM GZ KLK Notes: Phone: +919909394010 Hotel: nhow Amsterdam RAI Boat: Yes
+a251101 NG 1 Ismail Ahmed GZZ V3 Notes: Phone: +2349039834179 Hotel: Unknown Boat: Yes
+a251101 US 2 Archana Vyas GAZ V1 Notes: Phone: +16462873552 Hotel: Hotel Estherea, Singel 303-309, 1012 WJ Amsterdam Boat: Yes
+a251101 HK 2 Terence Cuaso RDD-D V1 Notes: Phone: +85252367900 Hotel: The Dylan Amsterdam, Keizersgracht 384, 1016 GB Amsterdam Boat: No
+a251101 US 2 Stephen Nolen GZ V1 Notes: Phone: +15403096859 Hotel: Movenpick Hotel Amsterdam City Centre, Piet Heinkade 11, 1019 BR Amsterdam Boat: Yes

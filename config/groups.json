@@ -1,0 +1,76 @@
+{
+  "keywords": {
+    "RDD": [
+      "Rotterdam",
+      "Delft",
+      "The Hague",
+      "鹿特丹",
+      "代尔夫特",
+      "海牙"
+    ],
+    "RDD-M": [
+      "Rotterdam",
+      "Delft",
+      "The Hague",
+      "Madurodam",
+      "鹿特丹",
+      "代尔夫特",
+      "海牙",
+      "小人国"
+    ],
+    "RDD-D": [
+      "Rotterdam",
+      "Delft",
+      "The Hague",
+      "Royal",
+      "鹿特丹",
+      "代尔夫特",
+      "海牙",
+      "工厂"
+    ],
+    "GZ": [
+      "Zaanse Schans",
+      "Giethoorn",
+      "风车村",
+      "羊角村"
+    ],
+    "GAZ": [
+      "Afsluitdijk",
+      "Zaanse Schans",
+      "Giethoorn",
+      "大坝",
+      "风车村",
+      "羊角村"
+    ],
+    "GZZ": [
+      "Lego Village",
+      "Zaanse Schans",
+      "Giethoorn",
+      "乐高",
+      "风车村",
+      "羊角村"
+    ],
+    "ROE": [
+      "Roermond",
+      "鲁尔蒙德"
+    ]
+  },
+  "fullname_EN": {
+    "GAZ": "Zaanse Schans, Afsluitdijk and Giethoorn",
+    "GZZ": "Zaanse Schans, Lego Village and Giethoorn",
+    "GZ": "Zaanse Schans and Giethoorn",
+    "RDD": "Rotterdam, Delft and The Hague",
+    "RDD-D": "Rotterdam, Delft and The Hague",
+    "RDD-M": "Rotterdam, Delft and The Hague",
+    "ROE": "Roermond Designer Outlet"
+  },
+  "fullname_CN": {
+    "GAZ": "风车村+拦海大坝+羊角村",
+    "GZZ": "风车村+乐高小镇+羊角村",
+    "GZ": "风车村+羊角村",
+    "RDD": "鹿特丹+代尔夫特+海牙",
+    "RDD-D": "鹿特丹+代尔夫特+海牙Royal Delft, 不去Madurodam",
+    "RDD-M": "鹿特丹+代尔夫特+海牙Madurodam, 不去Royal Delft",
+    "ROE": "鲁尔蒙德奥特莱斯"
+  }
+}
